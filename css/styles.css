@@ -1,0 +1,242 @@
+:root{
+    --logo-color: #000000;
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF;
+    --background-footer-color: #2F303A;
+    --footer-text-color: rgba(255, 255, 255, 0.6);
+}
+
+
+.page{
+    background-color: #FFFFFF;
+    color: var(--primary-text-color);
+
+    font-family: Roboto, sans-serif;
+}
+
+.page-header{
+    letter-spacing: 0.02em;
+    font-size: 14px;
+    line-height: 1.14;
+    font-weight: 500;
+}
+
+/* Скрытый элемент */
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+}
+/*Цвет основного текста #212121 */
+/*Цвет вторичный #757575*/
+/* Акцент #2196F3*/
+/*белый #FFFFFF*/
+/* вторичный цвет фона #F5F4FA */
+/* Подвал #2F303A */
+
+/* Лого */
+.logo-header{
+    color: var(--logo-color);
+
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+.logo-header > span {
+  color: var(--accent-color);
+}
+.logo-header.logo-footer {
+  color: var(--white-color);
+}
+
+
+
+/* Навигация сайта */
+.site-nav .link{
+    color: var(--primary-text-color);
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus{
+    color:var(--accent-color);
+}
+
+.site-nav .link.current{
+    color:var(--accent-color);
+}
+
+/* Контакты */
+.contact-nav .link{
+    color: var(--title-text-color);
+}
+.contact-nav .link:hover, 
+.contact-nav .link:focus{
+    color: var(--accent-color);
+}
+
+/* Герой */
+.hero {
+  background-color: #2f303a;
+  color: var(--white-color);
+  letter-spacing: 0.06em;
+}
+
+.hero-title{
+    margin-top: 0;
+    margin-left: auto;
+    margin-bottom: 30px;
+    margin-right: auto;
+    max-width: 696px;
+
+    color:var(--white-color);
+   
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Кнопка */
+.button-hero{
+    color:var(--white-color);
+    background-color:var(--accent-color);
+    font-family: inherit;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    align-items: center;
+    text-align: center;
+}
+
+/* Секция */
+.section{
+     letter-spacing: 0.03em;
+}
+
+.section-title{
+    color:var(--primary-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+/* Перечень особенностей */
+.feature-list{
+    text-align: left;
+}
+
+.title{ 
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.feature-list .text{
+    color: var(--title-text-color);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* Команда*/
+.team{
+    line-height: 1.19;
+}
+
+.manager{
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.position{
+    color: var(--title-text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Подвал */
+
+.footer{
+    background-color: var(--background-footer-color);
+    color: var(--white-color);
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.footer-contacts{
+    color: var(--footer-text-color);
+}
+
+/*страница Портфолио*/
+
+/*кнопки портфолио*/
+.button-portfolio {
+  color: var(--primary-text-color);
+  background-color: var(--background-button-portfolio);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  align-items: center;
+  text-align: center;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+/*заголовки портфолио*/
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+/*текст портфолио*/
+.portfolio-text {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+
+.container{
+    outline: tomato;
+}
